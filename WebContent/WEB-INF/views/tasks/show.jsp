@@ -10,11 +10,11 @@
                 <table>
                     <tbody>
                         <tr>
-                            <th>タイトル</th>
-                            <td><c:out value="${task.title}" /></td>
+                            <th>id</th>
+                            <td><c:out value="${task.id}" /></td>
                         </tr>
                         <tr>
-                            <th>メッセージ</th>
+                            <th>content</th>
                             <td><c:out value="${task.content}" /></td>
                         </tr>
                         <tr>
